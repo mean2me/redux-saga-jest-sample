@@ -1,7 +1,7 @@
 import { runSaga } from 'redux-saga';
 import SearchClient from "./services/SearchClient";
 import * as Actions from './actions';
-import searchFlightSaga, { searchFlights } from './sagas';
+import { searchFlights } from './sagas';
 import store from './store';
 import ActionTypes from "./constants/actionTypes";
 
